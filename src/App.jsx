@@ -54,6 +54,32 @@ export default function App() {
           </div>
         </section>
 
+        {/* Works領域 */}
+        <section className="space-y-3">
+          <h2 className="text-xs font-bold text-indigo-400 tracking-widest uppercase">
+            Works / Mini Games
+          </h2>
+          <div className="bg-slate-950/50 border border-slate-800 rounded-2xl p-4 transition-all hover:border-slate-700">
+            <div className="flex justify-between items-start mb-2">
+              <h3 className="font-bold text-white text-base">スイカダッシュ！</h3>
+              <span className="text-[10px] bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full font-medium">
+                Unity / WebGL
+              </span>
+            </div>
+            <p className="text-slate-400 text-xs sm:text-sm mb-4 font-light">
+              ブラウザで手軽に遊べるアクションミニゲーム。
+            </p>
+            <a 
+              href="https://mittu64bit.github.io/webapp/release/20260717/" 
+              target="_blank" 
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition-colors"
+            >
+              ゲームをプレイする ➔
+            </a>
+          </div>
+        </section>
+
       </main>
 
       {/* 画面下の小さな著作権表示 */}
